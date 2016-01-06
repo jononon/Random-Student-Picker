@@ -51,7 +51,7 @@ public class Picker extends JFrame implements ActionListener{
         JPanel bot = new JPanel();
         top.setLayout(new BoxLayout(top, BoxLayout.X_AXIS));
         text = new JTextArea();
-        Font font = new Font("Helvetica", Font.BOLD, 32);
+        Font font = new Font("Helvetica", Font.BOLD, 50);
         text.setFont(font);
         text.setSelectedTextColor(Color.GREEN);
         text.setBackground(Color.BLACK);
