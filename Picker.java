@@ -14,8 +14,8 @@ import javax.swing.JButton;
 import javax.swing.JPanel;
 
 public class Picker extends JFrame implements ActionListener{
-    private static final int WIDTH = 700;
-    private static final int HEIGHT = 300;
+    private static final int WIDTH = 1000;
+    private static final int HEIGHT = 400;
 
     private JTextArea text;
     
@@ -51,7 +51,7 @@ public class Picker extends JFrame implements ActionListener{
         JPanel bot = new JPanel();
         top.setLayout(new BoxLayout(top, BoxLayout.X_AXIS));
         text = new JTextArea();
-        Font font = new Font("Helvetica", Font.BOLD, 50);
+        Font font = new Font("Helvetica", Font.BOLD, 100);
         text.setFont(font);
         text.setSelectedTextColor(Color.GREEN);
         text.setBackground(Color.BLACK);
