@@ -1,5 +1,5 @@
 <project name="StringOpsMain" basedir="." default="main">
-    <property name="dir.src"     value=/>
+    <property name="dir.src"     value="src"/>
     <property name="dir.build"   value="build"/>
     <property name="dir.classes" value="${dir.build}/classes"/>
     <property name="dir.jar"     value="${dir.build}/jar"/>
