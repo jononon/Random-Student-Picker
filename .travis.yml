@@ -1,6 +1,11 @@
 language: java
 script: ant main
-before_install:
+env:
+  global:
+    - CODECOV_TOKEN=:4cdcc220-6966-4510-a9a5-fa51ca404769
+
+before_script:
   - pip install --user codecov
+
 after_success:
   - codecov
