@@ -1,4 +1,4 @@
-<project name="StringOpsMain" basedir="." default="main">
+<project name="RandomStudentPicker" basedir="." default="main">
     <property name="dir.src"     value="src"/>
     <property name="dir.build"   value="build"/>
     <property name="dir.classes" value="${dir.build}/classes"/>
